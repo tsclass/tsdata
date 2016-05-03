@@ -1,0 +1,24 @@
+{
+  "name": "tsdata",
+  "version": "1.0.0",
+  "description": "database connector for TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "(npmts)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsclass/tsdata.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "database",
+    "connector"
+  ],
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsclass/tsdata/issues"
+  },
+  "homepage": "https://github.com/tsclass/tsdata#readme"
+}
