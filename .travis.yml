@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- '4'
+- '5'
+deploy:
+  provider: npm
+  email: npm@lossless.digital
+  api_key:
+    secure: o91BnENGwS0j8DYwSbIcVSpCGCbcPq2iryX+nme6JKZ7BXdZKBACaV3E52XIq1Mq8btrxbGi+HThDd6/iz7rRvoPuQYxBnyMLy53qJZFJ7Pt/huEIZwRnpWiNC90Lhb4kWU5+y4FEjnzCT03/k0F0gov3zW5wINeu9MHtwZ5Ehy3BsAUoaHj7NfbAWdZ25szP8cSbgzzSGp9AhFvdE2aVLkhuiYlExmouU/wFU50E5J4wYHSbkx9vqAitqAmQ47fV6/jUezE4nSyTgxcUJv1yeAtnUjt1TyzPvujbq5uJbmjD2v+ZPN8xHC4EXUdCFimL4vQSgQiWthrMyvQeTZVBhLU27f9hhBaXdL95mZXZcD5Mb37V6ic+gBLGk/lJnwZdudrBKsGFe97n7Y5+S4KpPqFfLoOQM8wL5R09vqRON+y3OByb5fs2fEVEAmpFW7bfBCSruYjUOC1K16sEj5ZlDjURH1CcEAvwipxIqiyWK10asFT+vPiwFDuqnofnPny2uTRO2YFMqaIg3KUOtvldioePWhxgAy6G7mYkpelxHmW2YK+J8HTuYIQ9vXm1oDFsqMQhUAqsQO7E8Dw5cMzYxfh4r25UQRk/GfmSOc/7cwjQ4/vqZ9rDiYcHlIcvWiKbda40ewm6x507K3m8ycsduNuAhQTPNZYcsMYFJOxp+s=
+  on:
+    tags: true
+    repo: tsclass/tsdata
