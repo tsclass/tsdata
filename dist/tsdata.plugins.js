@@ -1,0 +1,7 @@
+"use strict";
+/// <reference path="./typings/main.d.ts" />
+exports.beautylog = require("beautylog");
+exports.mongodb = require("mongodb");
+exports.nedb = require("nedb");
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRzZGF0YS5wbHVnaW5zLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSw0Q0FBNEM7QUFDOUIsaUJBQVMsV0FBVyxXQUFXLENBQUMsQ0FBQztBQUNwQyxlQUFPLEdBQUcsT0FBTyxDQUFDLFNBQVMsQ0FBQyxDQUFDO0FBQzdCLFlBQUksR0FBRyxPQUFPLENBQUMsTUFBTSxDQUFDLENBQUMiLCJmaWxlIjoidHNkYXRhLnBsdWdpbnMuanMiLCJzb3VyY2VzQ29udGVudCI6WyIvLy8gPHJlZmVyZW5jZSBwYXRoPVwiLi90eXBpbmdzL21haW4uZC50c1wiIC8+XG5leHBvcnQgaW1wb3J0IGJlYXV0eWxvZyA9IHJlcXVpcmUoXCJiZWF1dHlsb2dcIik7XG5leHBvcnQgbGV0IG1vbmdvZGIgPSByZXF1aXJlKFwibW9uZ29kYlwiKTtcbmV4cG9ydCBsZXQgbmVkYiA9IHJlcXVpcmUoXCJuZWRiXCIpO1xuIl19

@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/tsclass/tsdata/issues"
   },
-  "homepage": "https://github.com/tsclass/tsdata#readme"
+  "homepage": "https://github.com/tsclass/tsdata#readme",
+  "dependencies": {
+    "beautylog": "^4.1.6",
+    "mongodb": "^2.1.18",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "npmts": "^5.1.5"
+  }
 }
