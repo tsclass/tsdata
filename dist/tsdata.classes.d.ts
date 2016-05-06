@@ -11,6 +11,7 @@ export declare class Database {
     host: string;
     username: string;
     password: string;
+    private databaseConnection;
     constructor(optionsArg: {
         type: string;
         host: string;

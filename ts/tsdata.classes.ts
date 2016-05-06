@@ -1,4 +1,8 @@
 /// <reference path="./typings/main.d.ts" />
+
+import * as plugins from "./tsdata.plugins";
+import * as TsdataDatabase from "./tsdata.database";
+
 export class Tsdata {
     sync:boolean;
     database:Database;
@@ -15,6 +19,7 @@ export class Database {
     host:string;
     username:string;
     password:string;
+    private databaseConnection
     constructor(optionsArg:{
         type:string,
         host:string,
@@ -25,5 +30,6 @@ export class Database {
         this.host = optionsArg.host;
         this.username = optionsArg.username;
         this.password = optionsArg.password
+        this.databaseConnection = TsdataDatabase.createDatabaseConnection(this);
     }
 }

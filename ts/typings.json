@@ -3,6 +3,7 @@
   "dependencies": {},
   "ambientDependencies": {
     "colors": "registry:dt/colors#0.6.0-1+20160501135139",
-    "node": "registry:dt/node#4.0.0+20160501135006"
+    "node": "registry:dt/node#4.0.0+20160501135006",
+    "should": "registry:dt/should#8.1.1+20160316155526"
   }
 }
